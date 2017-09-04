@@ -17,6 +17,7 @@ using pull_type = typename asymm_coroutine<T>::pull_type;
 
 template <typename T>
 using push_type = typename asymm_coroutine<T>::push_type;
+using yield_type = typename asymm_coroutine<control_type>::push_type;
 
 template <typename T>
 using pull_type_ptr = std::shared_ptr< pull_type<T> >;
