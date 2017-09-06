@@ -1,0 +1,19 @@
+{
+  "name": "coroutine",
+  "version": "1.0.0",
+  "description": "header only for simplification using boost::cotoutines2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makiolo/coroutine.git"
+  },
+  "keywords": [
+    "c++",
+    "coroutines"
+  ],
+  "author": "Ricardo Marmolejo García",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makiolo/coroutine/issues"
+  },
+  "homepage": "https://github.com/makiolo/coroutine#readme",
+}
