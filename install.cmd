@@ -1,3 +1,3 @@
 @echo off
-header only
+coroutine is a header only library
 
