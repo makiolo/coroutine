@@ -1,3 +1,3 @@
 #!/bin/bash
-echo header only
+echo coroutine is a header only library
 
