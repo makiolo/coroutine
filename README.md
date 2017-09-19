@@ -1,2 +1,2 @@
 # coroutine
-header only for simplification using boost::cotoutines2
+header only for simplification using boost::coroutines2
