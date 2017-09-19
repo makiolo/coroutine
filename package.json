@@ -1,14 +1,15 @@
 {
   "name": "coroutine",
   "version": "1.0.1",
-  "description": "header only for simplification using boost::cotoutines2",
+  "description": "header only for simplification using boost::coroutines2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/makiolo/coroutine.git"
   },
   "scripts": {
-    "ci": "cmaki ci",
-    "clean": "cmaki clean",
+    "ci": "curl -s https://raw.githubusercontent.com/makiolo/cmaki_scripts/master/ci.sh | bash",
+    "docker": "curl -s https://raw.githubusercontent.com/makiolo/cmaki_scripts/master/docker.sh | bash",
+    "clean": "echo ok",
     "setup": "echo ok",
     "compile": "echo ok",
     "install": "echo ok",
