@@ -6,8 +6,22 @@
 
 namespace cu {
 
+struct control_type
+{
+	enum StatusEnum {
+		RUNNING = 0,
+		COMPLETED = 1,
+		FAILED = 2
+	};
+
+	control_type(StatusEnum value = RUNNING)
+		: _value(value)
+	{ ; }
+protected:
+	StatusEnum _value;
+};
+
 using pid_type = int;
-using control_type = void;
 
 template <typename T>
 using asymm_coroutine = boost::coroutines2::asymmetric_coroutine<T>;
