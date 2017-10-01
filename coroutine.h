@@ -14,7 +14,11 @@ struct control_type
 		FAILED = 2
 	};
 
-	control_type(StatusEnum value = RUNNING)
+	control_type()
+		: _value(RUNNING)
+	{ ; }
+
+	control_type(StatusEnum value)
 		: _value(value)
 	{ ; }
 protected:
